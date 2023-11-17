@@ -1,3 +1,7 @@
+.photo {
+  margin: auto;
+  padding-inline-start: 0;
+}
 .photo__container {
   margin: 92px auto 0;
   width: 92.5vw;
@@ -30,7 +34,6 @@
   .photo__container {
     margin: 38px auto 0;
     max-width: 90vw;
-    max-height: 1812;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +48,6 @@
   .photo__container {
     margin: 38px auto 0;
     max-width: 90vw;
-    max-height: 1812;
     display: flex;
     flex-direction: column;
     grid-gap: 12px;
