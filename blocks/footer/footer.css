@@ -1,0 +1,28 @@
+.footer {
+  padding: 4% 0 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 10% 0 2%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    padding: 18% 0 5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 18% 0 5%;
+  }
+}
