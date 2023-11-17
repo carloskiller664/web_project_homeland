@@ -1,4 +1,4 @@
-.photos__container {
+.photo__container {
   margin: 92px auto 0;
   width: 92.5vw;
   max-width: 1184px;
@@ -8,26 +8,26 @@
   justify-content: center;
 }
 
-.photo {
+.photo__image {
   width: 100%;
   max-width: 284px;
   height: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .photos__container {
+  .photo__container {
     margin: 64px auto 0;
     width: 93.75vw;
   }
 
-  .photo {
+  .photo__image {
     width: 100%;
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .photos__container {
+  .photo__container {
     margin: 38px auto 0;
     max-width: 90vw;
     max-height: 1812;
@@ -36,13 +36,13 @@
     align-items: center;
     grid-gap: 12px;
   }
-  .photo {
+  .photo__image {
     max-width: 288px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .photos__container {
+  .photo__container {
     margin: 38px auto 0;
     max-width: 90vw;
     max-height: 1812;
@@ -50,7 +50,7 @@
     flex-direction: column;
     grid-gap: 12px;
   }
-  .photo {
+  .photo__image {
     max-width: 288px;
   }
 }
